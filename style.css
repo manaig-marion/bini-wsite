@@ -1,4 +1,4 @@
-/* body{
+body{
     background-color: #f4f6fc;
     margin: 0;
     padding: 0;
@@ -23,61 +23,4 @@
     font-family: 'Roboto', sans-serif;
     color: white;
     font-weight: bold;
-} */
-
-/* Reset default body styles */
-body {
-    background-color: #f4f6fc;
-    margin: 0;
-    padding: 0;
-}
-
-/* Header styles */
-.teal {
-    background-color: #1d97bd;
-    width: 100%; 
-    display: flex; 
-    align-items: center; 
-    justify-content: flex-start; /* Changed 'left' to 'flex-start' for correct Flexbox usage */
-    padding: 10px 20px; /* Add padding to prevent content from touching the screen edge */
-    box-sizing: border-box;
-}
-
-/* Logo styles */
-.logo img {
-    width: 80px; /* Adjusted size for better mobile viewing */
-    height: auto;
-    padding-left: 0; /* Remove fixed padding to avoid layout issues on smaller screens */
-}
-
-/* Navbar styles */
-.navbar {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-weight: bold;
-    display: flex; /* Use Flexbox for navbar links */
-    gap: 15px; /* Adds space between links */
-    flex-wrap: wrap; /* Allows wrapping of links on small screens */
-    padding: 10px 20px; /* Adds padding for better spacing */
-}
-
-/* Navbar links */
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 0; /* Adds padding for easier clicking on mobile */
-    flex: 1; /* Ensures links are evenly spaced */
-}
-
-/* Mobile styles */
-@media (max-width: 600px) {
-    .logo img {
-        width: 60px; /* Smaller logo size for mobile */
-    }
-
-    .navbar {
-        flex-direction: column; /* Stack navbar links vertically on small screens */
-        gap: 10px; /* Less gap between links on mobile */
-        text-align: center; /* Center links */
-    }
 }
