@@ -1,39 +1,42 @@
-body {
-    background-color: #f4f6fc;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in width/height */
+}
+
+body {
+    background-color: #f4f6fc;
+    font-family: 'Roboto', sans-serif; /* Sets the font across the body */
+}
+
+header {
+    width: 100vw; /* Full viewport width */
+    background-color: #1d97bd;
 }
 
 .teal {
-    background-color: #1d97bd;
-    width: 100vw; 
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-    box-sizing: border-box;
-    padding: 4px 20px; 
+    justify-content: space-between;
+    padding: 10px 20px; /* Padding to give some space around content */
+    width: 100%; /* Ensures full width inside the header */
 }
 
 .logo img {
     width: 100px;
     height: auto;
-    margin-left: 20px; 
 }
 
 .navbar {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-weight: bold;
     display: flex;
-    gap: 20px;
-    margin-right: 20px; 
-    white-space: nowrap;
+    gap: 15px; /* Spacing between nav items */
+    margin-left: auto;
+    color: white;
+    white-space: nowrap; /* Prevent text from wrapping */
 }
 
 @media (max-width: 600px) {
     .navbar {
-        gap: 10px; 
-        margin-right: 10px;
+        gap: 10px; /* Reduce gap for smaller screens */
     }
 }
-
