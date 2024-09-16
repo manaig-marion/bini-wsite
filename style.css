@@ -6,12 +6,12 @@ body {
 
 .teal {
     background-color: #1d97bd;
-    width: 100%; 
+    width: 100vw; 
     display: flex;
     align-items: center;
     justify-content: space-between; 
     box-sizing: border-box;
-    padding: 4px 0; 
+    padding: 4px 20px; 
 }
 
 .logo img {
