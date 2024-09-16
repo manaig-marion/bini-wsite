@@ -47,5 +47,15 @@ body{
         padding-right: 30px;
     }
     
+    .teal{
+        background-color: #1d97bd;
+        max-width: 100%; 
+        display: flex; 
+        align-items: center; 
+        justify-content: left; 
+        box-sizing: border-box; 
+        padding: 4px 20px;
+    }
+    
   }
   
